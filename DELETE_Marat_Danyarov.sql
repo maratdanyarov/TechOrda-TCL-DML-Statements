@@ -6,7 +6,7 @@
 delete from inventory 
 where film_id = 1005
 
--- Marat: here are the queries that can be potentially used we had the corresponding rental records. After them the query above can be used.
+-- Marat: here are the queries that can be potentially used if we had the corresponding rental records. After them the query above can be used.
 delete from payment
 where rental_id in (
 	select rental_id
